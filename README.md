@@ -2,7 +2,7 @@
 
 Xrdp is a free and open-source implementation of Microsoft RDP (Remote Desktop Protocol) other than Microsoft Windows (such as Linux and BSD-style operating systems) to provide a fully functional RDP-compatible remote desktop experience.
 
-wikipedia.org/Wiki/Xrdp
+wikipedia.org/wiki/Xrdp
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Xrdp_logo.svg/1920px-Xrdp_logo.svg.png" alt="xrdp logo" width="40%" height="auto">
 
