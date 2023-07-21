@@ -1,6 +1,5 @@
 INCLUDE options/options.makejail
 
-PKG xrdp
-SYSRC xrdp_enable=YES
-SYSRC xrdp_sesman_enable=YES
-SERVICE xrdp allstart
+ARG xrdp_tag=13.2
+
+FROM --entrypoint gh+AppJail-makejails/xrdp xrdp:${xrdp_tag}

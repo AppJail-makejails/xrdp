@@ -45,3 +45,40 @@ Open a shell and run `appjail makejail`:
 ```
 appjail makejail -j xrdp -- --network home
 ```
+
+### Arguments
+
+* `xrdp_tag` (default: `13.2`): see [#tags](#tags).
+
+## How to build the Image
+
+Make any changes you want to your image.
+
+```
+INCLUDE options/network.makejail
+INCLUDE gh+AppJail-makejails/xrdp --file build.makejail
+```
+
+Build the jail:
+
+```sh
+appjail makejail -j xrdp
+```
+
+Remove unportable or unnecessary files and directories and export the jail:
+
+```sh
+appjail stop xrdp
+appjail cmd local xrdp sh -c "rm -f var/log/*"
+appjail cmd local xrdp sh -c "rm -f var/cache/pkg/*"
+appjail cmd local xrdp sh -c "rm -f var/run/*"
+appjail cmd local xrdp vi etc/rc.conf
+appjail image export xrdp
+```
+
+## Tags
+
+| Tag        | Arch    | Version           | Type   |
+| ---------- | ------- | ----------------- | ------ |
+| `13.2`     | `amd64` | `13.2-RELEASE-p1` | `thin` |
+| `13.1`     | `amd64` | `13.1-RELEASE-p8` | `thin` |
