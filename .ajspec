@@ -1,0 +1,17 @@
+tags: 13.1
+13.1.arch: amd64
+13.1.name: "xrdp"
+13.1.timestamp.amd64: 1689973777
+13.1.sum.amd64: 3f17f99fc1e6942ef9f367e3ff084f75f18593de251edebe0e3b9f1bb8eaff47
+13.1.size.amd64: 251177380
+13.1.source.amd64: https://dtxdf.duckdns.org/J5Ra0b3cz8/xrdp_13_1_amd64_image_appjail
+13.1.source.amd64+: https://anonget.onrender.com/J5Ra0b3cz8/xrdp_13_1_amd64_image_appjail
+
+tags+: 13.2
+13.2.arch: amd64
+13.2.name: "xrdp"
+13.2.timestamp.amd64: 1689975989
+13.2.sum.amd64: 87503d887d3e33398e2b02cbf1784d8f42499c3a0974b43289acda2ee5c13d86
+13.2.size.amd64: 250562272
+13.2.source.amd64: https://dtxdf.duckdns.org/T7Rb033bza/xrdp_13_2_amd64_image_appjail
+13.2.source.amd64+: https://anonget.onrender.com/T7Rb033bza/xrdp_13_2_amd64_image_appjail
