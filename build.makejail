@@ -1,5 +1,3 @@
 INCLUDE options/options.makejail
 
 PKG xrdp
-SYSRC xrdp_enable=YES
-SYSRC xrdp_sesman_enable=YES

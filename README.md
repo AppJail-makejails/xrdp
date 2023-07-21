@@ -57,6 +57,9 @@ Make any changes you want to your image.
 ```
 INCLUDE options/network.makejail
 INCLUDE gh+AppJail-makejails/xrdp --file build.makejail
+
+SYSRC xrdp_enable=YES
+SYSRC xrdp_sesman_enable=YES
 ```
 
 Build the jail:
