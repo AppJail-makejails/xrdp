@@ -1,9 +1,7 @@
 tags: 13.2
 13.2.arch: amd64
 13.2.name: "xrdp"
-13.2.timestamp.amd64: 1691182321
-13.2.sum.amd64: 098da56d98a59f55ab862f0de92e417cdb652288b9eb958a57534f043ad662e2
-13.2.size.amd64: 252090208
-13.2.source.amd64: https://dtxdf.duckdns.org/d0Z5Od67z8/xrdp_13_2_amd64_image_appjail
-13.2.source.amd64+: https://storm-bsd.duckdns.org/d0Z5Od67z8/xrdp_13_2_amd64_image_appjail
-13.2.source.amd64+: https://anonget.onrender.com/d0Z5Od67z8/xrdp_13_2_amd64_image_appjail
+13.2.timestamp.amd64: 1692053788
+13.2.sum.amd64: 2bc2ece0c5a6f6b4471a880fc10e7f90e0d35073c70c6f85a0e187ab2134bf71
+13.2.size.amd64: 250019784
+13.2.source.amd64: "https://drive.google.com/uc?export=download&id=1vbsrz_i-FfCyiHMpxh6h1ku5tZUDJcd5&confirm=t&uuid=627799ec-51d4-4698-8466-db7cee82e9ae"
