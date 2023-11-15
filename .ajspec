@@ -1,8 +1,8 @@
 tags+: 13.2
 13.2.arch: amd64
 13.2.name: "xrdp"
-13.2.timestamp.amd64: 1698688114
-13.2.sum.amd64: 7f60ee1572734d03c4ad0ab54775975488f185ae277674c1007fe4ee43c9fe98
-13.2.size.amd64: 252286920
+13.2.timestamp.amd64: 1700070619
+13.2.sum.amd64: f0dad81ae7f8a45413d88f251d01e3acc45144b4f8143c6f5e942db23032c6a3
+13.2.size.amd64: 253929236
 13.2.source.amd64: https://images.all101bsd.download/xrdp/13.2-amd64-image.appjail
 13.2.source.amd64+: http://appjail.hpc.at/xrdp/13.2-amd64-image.appjail
