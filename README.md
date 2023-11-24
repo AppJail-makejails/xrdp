@@ -57,9 +57,6 @@ Make any changes you want to your image.
 ```
 INCLUDE options/network.makejail
 INCLUDE gh+AppJail-makejails/xrdp --file build.makejail
-
-SYSRC xrdp_enable=YES
-SYSRC xrdp_sesman_enable=YES
 ```
 
 Build the jail:
@@ -81,6 +78,6 @@ appjail image export xrdp
 
 ## Tags
 
-| Tag        | Arch    | Version           | Type   |
-| ---------- | ------- | ----------------- | ------ |
+| Tag        | Arch    | Version        | Type   |
+| ---------- | ------- | -------------- | ------ |
 | `13.2`     | `amd64` | `13.2-RELEASE` | `thin` |
