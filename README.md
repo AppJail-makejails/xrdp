@@ -81,3 +81,4 @@ appjail image export xrdp
 | Tag        | Arch    | Version        | Type   |
 | ---------- | ------- | -------------- | ------ |
 | `13.2`     | `amd64` | `13.2-RELEASE` | `thin` |
+| `14.0`     | `amd64` | `14.0-RELEASE` | `thin` |
