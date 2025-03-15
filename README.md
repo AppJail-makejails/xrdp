@@ -48,12 +48,12 @@ appjail makejail -j xrdp -- --network home
 
 ### Arguments
 
-* `xrdp_tag` (default: `13.4`): see [#tags](#tags).
+* `xrdp_tag` (default: `13.5`): see [#tags](#tags).
 * `xrdp_ajspec` (default: `gh+AppJail-makejails/xrdp`): Entry point where the `appjail-ajspec(5)` file is located.
 
 ## Tags
 
 | Tag        | Arch    | Version        | Type   |
 | ---------- | ------- | -------------- | ------ |
-| `13.4`     | `amd64` | `13.4-RELEASE` | `thin` |
+| `13.5`     | `amd64` | `13.5-RELEASE` | `thin` |
 | `14.2`     | `amd64` | `14.2-RELEASE` | `thin` |
