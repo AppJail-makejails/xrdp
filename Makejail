@@ -1,6 +1,6 @@
 INCLUDE options/options.makejail
 
-ARG xrdp_tag=13.5
+ARG xrdp_tag=14.3
 ARG xrdp_ajspec=gh+AppJail-makejails/xrdp
 
 FROM --entrypoint "${xrdp_ajspec}" xrdp:${xrdp_tag}
