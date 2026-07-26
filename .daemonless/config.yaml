@@ -1,0 +1,20 @@
+build:
+  variants:
+    - tag: 15.1-xlibre
+      containerfile: Containerfile
+      aliases: ["latest"]
+      default: true
+      args:
+        FREEBSD_RELEASE: "15.1"
+        X11_FLAVOR: xlibre
+        PYVER: "312"
+        NO_PKGCLEAN: "1"
+      cache_dirs: ["pkgcache0:/var/cache/pkg"]
+    - tag: 15.1-xorg
+      containerfile: Containerfile
+      args:
+        FREEBSD_RELEASE: "15.1"
+        X11_FLAVOR: xorg
+        PYVER: "312"
+        NO_PKGCLEAN: "1"
+      cache_dirs: ["pkgcache0:/var/cache/pkg"]

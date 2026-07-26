@@ -1,11 +1,5 @@
-INCLUDE options/options.makejail
+ARG xrdp_from=ghcr.io/appjail-makejails/xrdp
+ARG xrdp_tag=latest
 
-ARG xrdp_tag=14.3
-ARG xrdp_ajspec=gh+AppJail-makejails/xrdp
-
-FROM --entrypoint "${xrdp_ajspec}" xrdp:${xrdp_tag}
-
-SYSRC xrdp_enable=YES
-SYSRC xrdp_sesman_enable=YES
-
-SERVICE xrdp allstart
+OPTION overwrite=force
+OPTION from=${xrdp_from}:${xrdp_tag}
