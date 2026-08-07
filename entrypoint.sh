@@ -40,4 +40,4 @@ xrdp-sesman: xrdp-sesman --nodaemon
 EOF
 
 info "Starting ..."
-exec honcho start --no-colour --procfile /Procfile
+exec goreman -rpc-server=false -f /Procfile start

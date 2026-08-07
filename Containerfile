@@ -2,7 +2,6 @@ ARG FREEBSD_RELEASE
 
 FROM ghcr.io/appjail-makejails/core:${FREEBSD_RELEASE}
 
-ARG PYVER
 ARG X11_FLAVOR
 ARG NO_PKGCLEAN
 
@@ -16,7 +15,7 @@ LABEL org.opencontainers.image.title="Xrdp" \
 RUN set -xe; \
     \
     pkg update; \
-    pkg install -U xrdp py${PYVER}-honcho FreeBSD-pam; \
+    pkg install -U xrdp goreman FreeBSD-pam; \
     if [ "${X11_FLAVOR}" = "xlibre" ]; then \
         pkg install -U xlibre xlibre-xorgxrdp; \
     elif [ "${X11_FLAVOR}" = "xorg" ]; then \
