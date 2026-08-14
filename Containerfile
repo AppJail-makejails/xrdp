@@ -15,11 +15,11 @@ LABEL org.opencontainers.image.title="Xrdp" \
 RUN set -xe; \
     \
     pkg update; \
-    pkg install -U xrdp goreman FreeBSD-pam; \
+    pkg install xrdp goreman FreeBSD-pam; \
     if [ "${X11_FLAVOR}" = "xlibre" ]; then \
-        pkg install -U xlibre xlibre-xorgxrdp; \
+        pkg install xlibre xlibre-xorgxrdp; \
     elif [ "${X11_FLAVOR}" = "xorg" ]; then \
-        pkg install -U xorg xorgxrdp; \
+        pkg install xorg xorgxrdp; \
     else \
         echo "${X11_FLAVOR}: invalid x11 flavor."; \
         exit 1; \
